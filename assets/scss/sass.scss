@@ -1,0 +1,248 @@
+$color_grey:grey;
+$main_background:#FBFBFB;
+$main_height:100%;
+$background_icon:lightblue;
+$color_span:blue;
+$border_color:#f1f1f1;
+$secondback:#31A3DD;
+
+@mixin main_border{
+	border:3px solid $border_color;
+}
+
+@mixin blue_back{
+	background:$secondback;
+	padding:5px;
+	color:white;
+}
+@mixin border_bottom{
+	border-bottom:1px solid $border_color;
+}
+@mixin ul_set{
+	list-style: none;
+	margin-top:50px;
+
+		li{
+			padding-bottom:30px;
+			color:white;
+			font-size: 14px;
+			font-weight: bold;	
+		}
+
+}
+/*info*/
+
+#info{
+	height:$main_height;
+	.tumb{
+		background:$main_background;
+		h5{
+			margin:0px;
+			padding:10px 0;
+			color:$color_grey;
+		}
+
+	}
+.social ul{
+	height:100%;
+	
+	li{
+		list-style:none;
+		float:left;
+			a{
+				text-decoration:none;
+				padding:15px;
+			&:hover{
+				background:$background_icon;
+
+				}
+			}
+		}
+	}
+}
+/*head*/
+#head span{
+	color:$color_span;
+}
+
+.menu{
+	margin:20px 0;
+}
+/*erato_template*/
+.image{
+	height:500px;
+	background:url("../scss/Android.png");
+
+	.textpad{
+	     padding-top:200px;
+
+		span{
+	      color:$color_span;
+		}
+	}
+}
+/*retina*/
+#retina {
+	margin:50px 0;
+
+.border{
+	@include main_border;
+}
+	.bordericon{
+		width:60px;
+		height:60px;
+		border-radius:50%;
+		color:#f1f1f1;
+		margin: -30px auto 10px;
+		font-size:40px;
+		box-sizing:border-box;
+		background:white;
+	}
+}
+/*mackbook*/
+#mackbook{
+	height:450px;
+	background:#3F4745;
+	margin-bottom:100px;
+
+	.white{
+		color:white;
+	}
+	.margin_top{
+		margin-top: 50px;
+
+		.ul_left{
+			@include ul_set;
+			
+				li{
+					float:right;
+				}
+		}
+		.ul_right{
+			@include ul_set;
+			
+			li{
+				float:left;
+			}
+		}
+
+
+	}
+
+	.mackimage img{
+		max-width: 100%;
+		margin-top: 20px;
+	}
+}
+/*choose_service*/
+#choose_servis{
+	height:$main_height;
+	margin-bottom:20px;
+	
+	.margin_bottom{
+		margin-bottom:50px;
+	}
+   
+	.border2{
+		@include main_border;
+
+		div{
+			padding:15px 20px 20px 10px;
+			border-bottom:1px solid $border_color;
+
+			h1{
+				margin-bottom:0px;
+			}
+
+			ul{
+				list-style: none;
+				padding-left:0px;
+				
+
+				li{
+					margin-bottom: 10px;
+				}
+			}
+		}
+		.ssilka{
+			background:#FBFBFB;
+
+			a{
+				text-decoration: none;
+			}
+		}
+	}
+}
+/*customer*/
+#customer{
+	background:url("../scss/demo-2.png");
+
+	.inrow{
+		margin-bottom: 40px;
+
+		span{
+			font-weight: bold;
+		}
+		p,i,h4,h5{
+			color:$color_grey;
+		}
+	}
+}
+/*our mission*/
+#our_mission{
+
+	.blue_back1{
+		@include blue_back;
+	}
+
+	.first_col{
+		border:1px solid $border_color;
+		margin: 10px 0 10px 0;
+
+		h5{
+			font-weight: bold;
+		}
+	}
+}
+
+#our_mission{
+	margin:50px 0;
+
+	.border_bottom{
+		@include border_bottom;
+
+	}
+
+		.row{
+			margin-bottom: 20px;
+		}
+			.blue_back2{
+				@include blue_back;
+			    margin-bottom: 10px;
+		    	margin-right: -20px;
+			}
+}
+/*news*/
+#news{
+	margin:100px 0;
+
+		.innews{
+			background:url("../scss/post.jpg");
+			background-size:cover;
+			background-position:center;
+			height: 200px;
+
+			h5{
+				color:white;
+				font-weight: bold;
+				padding-top:150px;
+			}
+		}
+}
+/*golden*/
+#golden_partner{
+
+	.margin{
+		margin-bottom:50px;
+	}
+}

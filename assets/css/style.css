@@ -1,0 +1,159 @@
+/*info*/
+#info {
+  height: 100%; }
+  #info .tumb {
+    background: #FBFBFB; }
+    #info .tumb h5 {
+      margin: 0px;
+      padding: 10px 0;
+      color: grey; }
+  #info .social ul {
+    height: 100%; }
+    #info .social ul li {
+      list-style: none;
+      float: left; }
+      #info .social ul li a {
+        text-decoration: none;
+        padding: 15px; }
+        #info .social ul li a:hover {
+          background: lightblue; }
+
+/*head*/
+#head span {
+  color: blue; }
+
+.menu {
+  margin: 20px 0; }
+
+/*erato_template*/
+.image {
+  height: 500px;
+  background: url("../scss/Android.png"); }
+  .image .textpad {
+    padding-top: 200px; }
+    .image .textpad span {
+      color: blue; }
+
+/*retina*/
+#retina {
+  margin: 50px 0; }
+  #retina .border {
+    border: 3px solid #f1f1f1; }
+  #retina .bordericon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #f1f1f1;
+    margin: -30px auto 10px;
+    font-size: 40px;
+    box-sizing: border-box;
+    background: white; }
+
+/*mackbook*/
+#mackbook {
+  height: 450px;
+  background: #3F4745;
+  margin-bottom: 100px; }
+  #mackbook .white {
+    color: white; }
+  #mackbook .margin_top {
+    margin-top: 50px; }
+    #mackbook .margin_top .ul_left {
+      list-style: none;
+      margin-top: 50px; }
+      #mackbook .margin_top .ul_left li {
+        padding-bottom: 30px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold; }
+      #mackbook .margin_top .ul_left li {
+        float: right; }
+    #mackbook .margin_top .ul_right {
+      list-style: none;
+      margin-top: 50px; }
+      #mackbook .margin_top .ul_right li {
+        padding-bottom: 30px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold; }
+      #mackbook .margin_top .ul_right li {
+        float: left; }
+  #mackbook .mackimage img {
+    max-width: 100%;
+    margin-top: 20px; }
+
+/*choose_service*/
+#choose_servis {
+  height: 100%;
+  margin-bottom: 20px; }
+  #choose_servis .margin_bottom {
+    margin-bottom: 50px; }
+  #choose_servis .border2 {
+    border: 3px solid #f1f1f1; }
+    #choose_servis .border2 div {
+      padding: 15px 20px 20px 10px;
+      border-bottom: 1px solid #f1f1f1; }
+      #choose_servis .border2 div h1 {
+        margin-bottom: 0px; }
+      #choose_servis .border2 div ul {
+        list-style: none;
+        padding-left: 0px; }
+        #choose_servis .border2 div ul li {
+          margin-bottom: 10px; }
+    #choose_servis .border2 .ssilka {
+      background: #FBFBFB; }
+      #choose_servis .border2 .ssilka a {
+        text-decoration: none; }
+
+/*customer*/
+#customer {
+  background: url("../scss/demo-2.png"); }
+  #customer .inrow {
+    margin-bottom: 40px; }
+    #customer .inrow span {
+      font-weight: bold; }
+    #customer .inrow p, #customer .inrow i, #customer .inrow h4, #customer .inrow h5 {
+      color: grey; }
+
+/*our mission*/
+#our_mission .blue_back1 {
+  background: #31A3DD;
+  padding: 5px;
+  color: white; }
+#our_mission .first_col {
+  border: 1px solid #f1f1f1;
+  margin: 10px 0 10px 0; }
+  #our_mission .first_col h5 {
+    font-weight: bold; }
+
+#our_mission {
+  margin: 50px 0; }
+  #our_mission .border_bottom {
+    border-bottom: 1px solid #f1f1f1; }
+  #our_mission .row {
+    margin-bottom: 20px; }
+  #our_mission .blue_back2 {
+    background: #31A3DD;
+    padding: 5px;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: -20px; }
+
+/*news*/
+#news {
+  margin: 100px 0; }
+  #news .innews {
+    background: url("../scss/post.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px; }
+    #news .innews h5 {
+      color: white;
+      font-weight: bold;
+      padding-top: 150px; }
+
+/*golden*/
+#golden_partner .margin {
+  margin-bottom: 50px; }
+
+/*# sourceMappingURL=style.css.map */
